@@ -1,4 +1,6 @@
-# EA-LLM
+# SULLM-EA
+
+
 
 Most existing EA methods either:
 - rely heavily on **embedding similarity computation** based on graph representation learning, or  
@@ -6,7 +8,7 @@ Most existing EA methods either:
 
 These paradigms fail to fully exploit the structural semantics of KGs and limit the reasoning capability of LLMs in EA.
 
-**EA-LLM** is an LLM-driven entity alignment framework that explicitly bridges KGs and LLMs by projecting structured entity semantics into the LLM token space, enabling structure-aware alignment reasoning **without relying on embedding similarity computation**.
+**SULLM-EA** is an LLM-driven entity alignment framework that explicitly bridges KGs and LLMs by projecting structured entity semantics into the LLM token space, enabling structure-aware alignment reasoning **without relying on embedding similarity computation**.
 
 ---
 
@@ -59,9 +61,9 @@ After setting up the environment and installing all required packages, export th
 pip install -r requirements.txt
 ```
 
-## 🚀 Running EA-LLM
+## 🚀 Running SULLM-EA
 
-To train and evaluate EA-LLM on the ICEWS–WIKI dataset, run:
+To train and evaluate SULLM-EA on the ICEWS–WIKI dataset, run:
 
 ```bash
 bash ./bash/wiki_train_test.sh
