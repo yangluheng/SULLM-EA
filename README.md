@@ -67,3 +67,6 @@ To train and evaluate SULLM-EA on the ICEWS–WIKI dataset, run:
 
 ```bash
 bash ./bash/wiki_train_test.sh
+```
+# Acknowledgements
+Our work is based on the existing work of the combination of LLM and GNN, and the code is also written based on **[LLaGA](https://github.com/VITA-Group/LLaGA)** and **[TEA-GLM](https://github.com/W-rudder/TEA-GLM)** these work. Thanks for their open source codes and great work.
